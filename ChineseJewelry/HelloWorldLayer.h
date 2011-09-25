@@ -9,6 +9,8 @@
 
 // When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
+#import <ZYToolKit/ZYToolKit.h>
+#import <ZYJewelry/ZYJewelry.h>
 
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer

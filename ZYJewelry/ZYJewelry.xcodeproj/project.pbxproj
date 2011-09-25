@@ -1,0 +1,228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4B804EB142ED1CF00AA76E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B804EA142ED1CF00AA76E7 /* Foundation.framework */; };
+		A4B804F1142ED1CF00AA76E7 /* ZYJewelry.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B804F0142ED1CF00AA76E7 /* ZYJewelry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4B804E7142ED1CF00AA76E7 /* libZYJewelry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZYJewelry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B804EA142ED1CF00AA76E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4B804EE142ED1CF00AA76E7 /* ZYJewelry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYJewelry-Prefix.pch"; sourceTree = "<group>"; };
+		A4B804EF142ED1CF00AA76E7 /* ZYJewelry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYJewelry.h; sourceTree = "<group>"; };
+		A4B804F0142ED1CF00AA76E7 /* ZYJewelry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYJewelry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B804E4142ED1CF00AA76E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B804EB142ED1CF00AA76E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4B804DC142ED1CF00AA76E7 = {
+			isa = PBXGroup;
+			children = (
+				A4B804EC142ED1CF00AA76E7 /* ZYJewelry */,
+				A4B804E9142ED1CF00AA76E7 /* Frameworks */,
+				A4B804E8142ED1CF00AA76E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B804E8142ED1CF00AA76E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B804E7142ED1CF00AA76E7 /* libZYJewelry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B804E9142ED1CF00AA76E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B804EA142ED1CF00AA76E7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4B804EC142ED1CF00AA76E7 /* ZYJewelry */ = {
+			isa = PBXGroup;
+			children = (
+				A4B804EF142ED1CF00AA76E7 /* ZYJewelry.h */,
+				A4B804F0142ED1CF00AA76E7 /* ZYJewelry.m */,
+				A4B804ED142ED1CF00AA76E7 /* Supporting Files */,
+			);
+			path = ZYJewelry;
+			sourceTree = "<group>";
+		};
+		A4B804ED142ED1CF00AA76E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B804EE142ED1CF00AA76E7 /* ZYJewelry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4B804E5142ED1CF00AA76E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4B804E6142ED1CF00AA76E7 /* ZYJewelry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B804F4142ED1CF00AA76E7 /* Build configuration list for PBXNativeTarget "ZYJewelry" */;
+			buildPhases = (
+				A4B804E3142ED1CF00AA76E7 /* Sources */,
+				A4B804E4142ED1CF00AA76E7 /* Frameworks */,
+				A4B804E5142ED1CF00AA76E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYJewelry;
+			productName = ZYJewelry;
+			productReference = A4B804E7142ED1CF00AA76E7 /* libZYJewelry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B804DE142ED1CF00AA76E7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A4B804E1142ED1CF00AA76E7 /* Build configuration list for PBXProject "ZYJewelry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4B804DC142ED1CF00AA76E7;
+			productRefGroup = A4B804E8142ED1CF00AA76E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B804E6142ED1CF00AA76E7 /* ZYJewelry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B804E3142ED1CF00AA76E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B804F1142ED1CF00AA76E7 /* ZYJewelry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4B804F2142ED1CF00AA76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4B804F3142ED1CF00AA76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B804F5142ED1CF00AA76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZYJewelry.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYJewelry/ZYJewelry-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4B804F6142ED1CF00AA76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZYJewelry.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYJewelry/ZYJewelry-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B804E1142ED1CF00AA76E7 /* Build configuration list for PBXProject "ZYJewelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B804F2142ED1CF00AA76E7 /* Debug */,
+				A4B804F3142ED1CF00AA76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B804F4142ED1CF00AA76E7 /* Build configuration list for PBXNativeTarget "ZYJewelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B804F5142ED1CF00AA76E7 /* Debug */,
+				A4B804F6142ED1CF00AA76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B804DE142ED1CF00AA76E7 /* Project object */;
+}
