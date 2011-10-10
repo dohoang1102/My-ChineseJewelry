@@ -7,11 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A46E79F4142EE8DB00879EF6 /* ZYJewelryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = A46E79F2142EE8DB00879EF6 /* ZYJewelryBox.h */; };
+		A46E79F5142EE8DB00879EF6 /* ZYJewelryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A46E79F3142EE8DB00879EF6 /* ZYJewelryBox.m */; };
+		A46E79F9142EE8F000879EF6 /* ZYJewelryMap.h in Headers */ = {isa = PBXBuildFile; fileRef = A46E79F7142EE8F000879EF6 /* ZYJewelryMap.h */; };
+		A46E79FA142EE8F000879EF6 /* ZYJewelryMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A46E79F8142EE8F000879EF6 /* ZYJewelryMap.m */; };
+		A46E7A09142EF93800879EF6 /* ZYJewelryAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A46E7A08142EF93800879EF6 /* ZYJewelryAction.h */; };
+		A46E7A0E142F429E00879EF6 /* ZYJewelryAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = A46E7A0D142F429E00879EF6 /* ZYJewelryAnimated.h */; };
+		A46E7A22142F462F00879EF6 /* ZYJewelryGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = A46E7A21142F462F00879EF6 /* ZYJewelryGlobal.h */; };
+		A46E7A25142F4C5200879EF6 /* ZYJewelryMapPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = A46E7A23142F4C5100879EF6 /* ZYJewelryMapPoint.h */; };
+		A46E7A26142F4C5200879EF6 /* ZYJewelryMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A46E7A24142F4C5100879EF6 /* ZYJewelryMapPoint.m */; };
 		A4B804EB142ED1CF00AA76E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B804EA142ED1CF00AA76E7 /* Foundation.framework */; };
 		A4B804F1142ED1CF00AA76E7 /* ZYJewelry.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B804F0142ED1CF00AA76E7 /* ZYJewelry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A46E79F2142EE8DB00879EF6 /* ZYJewelryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJewelryBox.h; sourceTree = "<group>"; };
+		A46E79F3142EE8DB00879EF6 /* ZYJewelryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJewelryBox.m; sourceTree = "<group>"; };
+		A46E79F7142EE8F000879EF6 /* ZYJewelryMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJewelryMap.h; sourceTree = "<group>"; };
+		A46E79F8142EE8F000879EF6 /* ZYJewelryMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJewelryMap.m; sourceTree = "<group>"; };
+		A46E7A08142EF93800879EF6 /* ZYJewelryAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJewelryAction.h; sourceTree = "<group>"; };
+		A46E7A0D142F429E00879EF6 /* ZYJewelryAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJewelryAnimated.h; sourceTree = "<group>"; };
+		A46E7A21142F462F00879EF6 /* ZYJewelryGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJewelryGlobal.h; sourceTree = "<group>"; };
+		A46E7A23142F4C5100879EF6 /* ZYJewelryMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJewelryMapPoint.h; sourceTree = "<group>"; };
+		A46E7A24142F4C5100879EF6 /* ZYJewelryMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJewelryMapPoint.m; sourceTree = "<group>"; };
 		A4B804E7142ED1CF00AA76E7 /* libZYJewelry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZYJewelry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B804EA142ED1CF00AA76E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4B804EE142ED1CF00AA76E7 /* ZYJewelry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYJewelry-Prefix.pch"; sourceTree = "<group>"; };
@@ -61,6 +79,15 @@
 			children = (
 				A4B804EF142ED1CF00AA76E7 /* ZYJewelry.h */,
 				A4B804F0142ED1CF00AA76E7 /* ZYJewelry.m */,
+				A46E79F2142EE8DB00879EF6 /* ZYJewelryBox.h */,
+				A46E79F3142EE8DB00879EF6 /* ZYJewelryBox.m */,
+				A46E79F7142EE8F000879EF6 /* ZYJewelryMap.h */,
+				A46E79F8142EE8F000879EF6 /* ZYJewelryMap.m */,
+				A46E7A23142F4C5100879EF6 /* ZYJewelryMapPoint.h */,
+				A46E7A24142F4C5100879EF6 /* ZYJewelryMapPoint.m */,
+				A46E7A08142EF93800879EF6 /* ZYJewelryAction.h */,
+				A46E7A0D142F429E00879EF6 /* ZYJewelryAnimated.h */,
+				A46E7A21142F462F00879EF6 /* ZYJewelryGlobal.h */,
 				A4B804ED142ED1CF00AA76E7 /* Supporting Files */,
 			);
 			path = ZYJewelry;
@@ -81,6 +108,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46E79F4142EE8DB00879EF6 /* ZYJewelryBox.h in Headers */,
+				A46E79F9142EE8F000879EF6 /* ZYJewelryMap.h in Headers */,
+				A46E7A09142EF93800879EF6 /* ZYJewelryAction.h in Headers */,
+				A46E7A0E142F429E00879EF6 /* ZYJewelryAnimated.h in Headers */,
+				A46E7A22142F462F00879EF6 /* ZYJewelryGlobal.h in Headers */,
+				A46E7A25142F4C5200879EF6 /* ZYJewelryMapPoint.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B804F1142ED1CF00AA76E7 /* ZYJewelry.m in Sources */,
+				A46E79F5142EE8DB00879EF6 /* ZYJewelryBox.m in Sources */,
+				A46E79FA142EE8F000879EF6 /* ZYJewelryMap.m in Sources */,
+				A46E7A26142F4C5200879EF6 /* ZYJewelryMapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +257,7 @@
 				A4B804F6142ED1CF00AA76E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
