@@ -1,5 +1,5 @@
 //
-//  ZYJewelry.h
+//  ZYJewelryAnimated.h
 //  ZYJewelry
 //
 //  Created by Zhiyang Zhao on 11-9-25.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZYJewelry : NSObject
+@protocol ZYJewelryAnimated <NSObject>
 
 @end
-
-
